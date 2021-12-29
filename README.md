@@ -13,4 +13,4 @@ starting with `192.168`). However, if you're hosting the client and server on
 the same machine, connecting to localhost (`127.0.0.1`) will work.
 
 ## Why does this fork even EXIST?
-To find vulnerabilities in auth, and to get the test_item
+To find vulnerabilities in auth and to make a lightweight server(with no GUI and commands only on server-side)
