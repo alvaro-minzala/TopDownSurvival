@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "GameTree",
+"language": "GDScript",
+"path": "res://src/scripts/Tree.gd"
+}, {
+"base": "Node2D",
+"class": "Item",
+"language": "GDScript",
+"path": "res://src/scripts/Item.gd"
+} ]
+_global_script_class_icons={
+"GameTree": "",
+"Item": ""
+}
+
 [application]
 
 config/name="Top Down Survival Server"
@@ -17,6 +33,13 @@ config/icon="res://icon.png"
 [autoload]
 
 Network="*res://src/scripts/network.gd"
+Database="*res://src/scripts/Database.gd"
+GameData="*res://src/scripts/GameData.gd"
+GameServerHub="*res://src/scripts/GameServerHub.gd"
+
+[network]
+
+ssl/certificates="res://assets/certificates/TopDownSurvival-Gateway-Cert.crt"
 
 [physics]
 
