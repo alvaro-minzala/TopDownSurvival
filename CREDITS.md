@@ -2,9 +2,11 @@
 
 ## Programming
 + Rehatbir Singh / MysteryCoder456
++ somerandomguy708
 
 ## Art
 + Rehatbir Singh / MysteryCoder456
++ somerandomguy708
 
 ## Fonts
 + Zacchary Dempsey-Plante
