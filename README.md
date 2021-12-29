@@ -11,3 +11,6 @@ The game is made with Godot Engine, so you need to install that to play it
 **NOTE:** Please do not use local IP addresses to connect to a server (usually
 starting with `192.168`). However, if you're hosting the client and server on
 the same machine, connecting to localhost (`127.0.0.1`) will work.
+
+## Why does this fork even EXIST?
+To find vulnerabilities in auth, and to get the test_item
